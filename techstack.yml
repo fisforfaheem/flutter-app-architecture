@@ -1,0 +1,454 @@
+repo_name: fisforfaheem/flutter-app-architecture
+report_id: e9eb2a62bcc16919de87162db861c9bd
+repo_type: Public
+timestamp: '2023-11-10T06:57:05+00:00'
+requested_by: hammad-tariq
+provider: github
+branch: master
+detected_tools_count: 35
+tools:
+- name: Dart
+  description: A new web programming language with libraries, a virtual machine, and
+    tools
+  website_url: https://www.dartlang.org/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1646/Twitter-02.png
+  detection_source: Repo Metadata
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source: pubspec.yaml
+  last_updated_by: hammad-tariq
+  last_updated_on: 2021-02-01 13:38:00.000000000 Z
+- name: Kotlin
+  description: Statically typed Programming Language targeting JVM and JavaScript
+  website_url: https://kotlinlang.org/
+  open_source: true
+  hosted_saas: true
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/3750/pCfEzr6L.png
+  detection_source: Repo Metadata
+- name: Objective-C
+  description: The primary programming language you use when writing software for
+    OS X and iOS
+  website_url: https://developer.apple.com/library/mac/documentation/Cocoa/Conceptual/ProgrammingWithObjectiveC/Introduction/Introduction.html
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1008/xcode.png
+  detection_source: Repo Metadata
+- name: Ruby
+  description: A dynamic, interpreted, open source programming language with a focus
+    on simplicity and productivity
+  website_url: https://www.ruby-lang.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/989/ruby.png
+  detection_source: Repo Metadata
+- name: Swift
+  description: 'An innovative new programming language for Cocoa and Cocoa Touch. '
+  website_url: https://developer.apple.com/swift/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1009/tuHsaI2U.png
+  detection_source: Repo Metadata
+- name: Android SDK
+  description: An SDK that provides you the API libraries and developer tools necessary
+    to build, test, and debug apps for Android.
+  website_url: http://developer.android.com
+  version: '21.0'
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1010/m8jf0po4imu8t5eemjdd.png
+  detection_source_url: android/app/build.gradle
+  detection_source: android/app/build.gradle
+  last_updated_by: hammad-tariq
+  last_updated_on: 2022-06-21 19:20:12.000000000 Z
+- name: Flutter
+  description: Cross-platform mobile framework from Google
+  website_url: https://flutter.io/
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Cross-Platform Mobile Development
+  image_url: https://img.stackshare.io/service/7180/flutter-mark-square-100.png
+  detection_source: pubspec.yaml
+  last_updated_by: hammad-tariq
+  last_updated_on: 2021-01-10 14:05:06.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source: ".github/workflows/dart.yml"
+  last_updated_by: Hammad Tariq
+  last_updated_on: 2021-02-23 08:37:06.000000000 Z
+- name: Gradle
+  description: A powerful build system for the JVM
+  website_url: https://www.gradle.org/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Java Build Tools
+  image_url: https://img.stackshare.io/service/975/gradlephant-social-black-bg.png
+  detection_source: android/app/build.gradle
+  last_updated_by: hammad-tariq
+  last_updated_on: 2021-01-10 14:05:06.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source: pubspec.yaml
+  last_updated_by: hammad-tariq
+  last_updated_on: 2021-01-10 14:05:06.000000000 Z
+- name: Android OS
+  description: An open source mobile operating system by Google
+  website_url: https://www.android.com
+  version: '5.0'
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Operating Systems
+  image_url: https://img.stackshare.io/service/9586/ZvmtaSXW_400x400.jpg
+  detection_source_url: android/app/build.gradle
+  detection_source: android/app/build.gradle
+  last_updated_by: hammad-tariq
+  last_updated_on: 2022-06-21 19:20:12.000000000 Z
+- name: CocoaPods
+  description: A dependency manager for Swift and Objective-C Cocoa projects
+  website_url: https://cocoapods.org/
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: CocoaPods Packages
+  image_url: https://img.stackshare.io/service/2426/e1cbdef9d4b11484049a033886578e54_400x400.png
+  detection_source: ios/Podfile.lock
+  last_updated_by: hammad-tariq
+  last_updated_on: 2021-02-28 13:55:42.000000000 Z
+- name: alice
+  description: Alice is an HTTP Inspector tool which helps debugging http requests
+  package_url: https://pub.dartlang.org/alice
+  version: 0.2.5
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pub/image.png
+  detection_source_url: pubspec.yaml
+  detection_source: pubspec.yaml
+  last_updated_by: hammad-tariq
+  last_updated_on: 2022-06-21 19:20:12.000000000 Z
+- name: dartz
+  description: Functional Programming in Dart
+  package_url: https://pub.dartlang.org/dartz
+  version: 0.10.1
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pub/image.png
+  detection_source_url: pubspec.yaml
+  detection_source: pubspec.yaml
+  last_updated_by: hammad-tariq
+  last_updated_on: 2022-06-18 12:49:02.000000000 Z
+- name: dio
+  description: |-
+    A powerful HTTP networking package,
+    supports Interceptors,
+    Aborting and canceling a request,
+    Custom adapters
+  package_url: https://pub.dartlang.org/dio
+  version: 4.0.6
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pub/image.png
+  detection_source_url: pubspec.yaml
+  detection_source: pubspec.yaml
+  last_updated_by: hammad-tariq
+  last_updated_on: 2021-01-10 14:05:06.000000000 Z
+  vulnerabilities:
+  - name: dio vulnerable to CRLF injection with HTTP method string
+    cve_id: CVE-2021-31402
+    cve_url: https://github.com/advisories/GHSA-9324-jv53-9cc8
+    detected_date: Nov 9
+    severity: high
+    first_patched: 5.0.0
+  - name: 'Duplicate Advisory: Improper Neutralization of CRLF Sequences in dio'
+    cve_id: 
+    cve_url: https://github.com/advisories/GHSA-jwpw-q68h-r678
+    detected_date: Nov 9
+    severity: high
+    first_patched: 5.0.0
+- name: equatable
+  description: A Dart package that helps to implement value based equality without
+    needing to explicitly override == and hashCode
+  package_url: https://pub.dartlang.org/equatable
+  version: 2.0.3
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pub/image.png
+  detection_source_url: pubspec.yaml
+  detection_source: pubspec.yaml
+  last_updated_by: hammad-tariq
+  last_updated_on: 2022-06-18 12:49:02.000000000 Z
+- name: firebase_analytics
+  description: Flutter plugin for Google Analytics for Firebase
+  package_url: https://pub.dartlang.org/firebase_analytics
+  version: 9.1.8
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pub/image.png
+  detection_source_url: pubspec.yaml
+  detection_source: pubspec.yaml
+  last_updated_by: hammad-tariq
+  last_updated_on: 2022-06-21 19:20:12.000000000 Z
+- name: firebase_core
+  description: Flutter plugin for Firebase Core
+  package_url: https://pub.dartlang.org/firebase_core
+  version: 1.17.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pub/image.png
+  detection_source_url: pubspec.yaml
+  detection_source: pubspec.yaml
+  last_updated_by: hammad-tariq
+  last_updated_on: 2022-06-21 19:20:12.000000000 Z
+- name: firebase_crashlytics
+  description: Flutter plugin for Firebase Crashlytics
+  package_url: https://pub.dartlang.org/firebase_crashlytics
+  version: 2.8.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pub/image.png
+  detection_source_url: pubspec.yaml
+  detection_source: pubspec.yaml
+  last_updated_by: hammad-tariq
+  last_updated_on: 2022-06-21 19:20:12.000000000 Z
+- name: firebase_messaging
+  description: Flutter plugin for Firebase Cloud Messaging
+  package_url: https://pub.dartlang.org/firebase_messaging
+  version: 11.4.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pub/image.png
+  detection_source_url: pubspec.yaml
+  detection_source: pubspec.yaml
+  last_updated_by: hammad-tariq
+  last_updated_on: 2022-06-21 19:20:12.000000000 Z
+- name: flutter
+  description: Visit flutter.io to get started
+  package_url: https://pub.dartlang.org/flutter
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pub/image.png
+  detection_source: pubspec.yaml
+  last_updated_by: hammad-tariq
+  last_updated_on: 2022-06-26 13:54:32.000000000 Z
+- name: flutter_bloc
+  description: Flutter Widgets that make it easy to implement the BLoC
+  package_url: https://pub.dartlang.org/flutter_bloc
+  version: 8.0.1
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pub/image.png
+  detection_source_url: pubspec.yaml
+  detection_source: pubspec.yaml
+  last_updated_by: hammad-tariq
+  last_updated_on: 2022-06-26 13:54:32.000000000 Z
+- name: flutter_local_notifications
+  description: A cross platform plugin for displaying and scheduling local notifications
+    for Flutter applications with the ability to customise for each platform
+  package_url: https://pub.dartlang.org/flutter_local_notifications
+  version: 9.5.3
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pub/image.png
+  detection_source_url: pubspec.yaml
+  detection_source: pubspec.yaml
+  last_updated_by: hammad-tariq
+  last_updated_on: 2022-06-26 13:54:32.000000000 Z
+- name: font_awesome_flutter
+  description: The Font Awesome Icon pack available as Flutter Icons
+  package_url: https://pub.dartlang.org/font_awesome_flutter
+  version: 10.1.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pub/image.png
+  detection_source_url: pubspec.yaml
+  detection_source: pubspec.yaml
+  last_updated_by: hammad-tariq
+  last_updated_on: 2022-06-26 13:54:32.000000000 Z
+- name: get_it
+  description: Simple direct Service Locator that allows to decouple the interface
+    from a concrete implementation and to access the concrete implementation from
+    everywhere in your App"
+  package_url: https://pub.dartlang.org/get_it
+  version: 7.2.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pub/image.png
+  detection_source_url: pubspec.yaml
+  detection_source: pubspec.yaml
+  last_updated_by: hammad-tariq
+  last_updated_on: 2022-06-18 12:49:02.000000000 Z
+- name: google_fonts
+  description: A Flutter package to use fonts from fonts.google.com
+  package_url: https://pub.dartlang.org/google_fonts
+  version: 3.0.1
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pub/image.png
+  detection_source_url: pubspec.yaml
+  detection_source: pubspec.yaml
+  last_updated_by: hammad-tariq
+  last_updated_on: 2022-06-26 13:54:32.000000000 Z
+- name: intl
+  description: Contains code to deal with internationalized/localized messages
+  package_url: https://pub.dartlang.org/intl
+  version: 0.17.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pub/image.png
+  detection_source_url: pubspec.yaml
+  detection_source: pubspec.yaml
+  last_updated_by: hammad-tariq
+  last_updated_on: 2022-06-18 12:49:02.000000000 Z
+- name: location
+  description: Cross-platform plugin for easy access to device's location in real-time
+  package_url: https://pub.dartlang.org/location
+  version: 4.2.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pub/image.png
+  detection_source_url: pubspec.yaml
+  detection_source: pubspec.yaml
+  last_updated_by: hammad-tariq
+  last_updated_on: 2022-06-24 20:13:06.000000000 Z
+- name: mockito
+  description: A mock framework inspired by Mockito with APIs for Fakes
+  package_url: https://pub.dartlang.org/mockito
+  version: 5.2.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pub/image.png
+  detection_source_url: pubspec.yaml
+  detection_source: pubspec.yaml
+  last_updated_by: hammad-tariq
+  last_updated_on: 2022-06-18 12:49:02.000000000 Z
+- name: path
+  description: A string-based path manipulation library
+  package_url: https://pub.dartlang.org/path
+  version: 1.8.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pub/image.png
+  detection_source_url: pubspec.yaml
+  detection_source: pubspec.yaml
+  last_updated_by: hammad-tariq
+  last_updated_on: 2022-06-21 19:20:12.000000000 Z
+- name: path_provider
+  description: Flutter plugin for getting commonly used locations on host platform
+    file systems
+  package_url: https://pub.dartlang.org/path_provider
+  version: 2.0.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pub/image.png
+  detection_source_url: pubspec.yaml
+  detection_source: pubspec.yaml
+  last_updated_by: hammad-tariq
+  last_updated_on: 2022-06-21 19:20:12.000000000 Z
+- name: permission_handler
+  description: Permission plugin for Flutter
+  package_url: https://pub.dartlang.org/permission_handler
+  version: 8.3.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pub/image.png
+  detection_source_url: pubspec.yaml
+  detection_source: pubspec.yaml
+  last_updated_by: hammad-tariq
+  last_updated_on: 2022-06-21 19:20:12.000000000 Z
+- name: org.jetbrains.kotlin:kotlin-stdlib-jdk7
+  description: Kotlin Standard Library JDK 7 extension
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source: android/app/build.gradle
+  last_updated_by: hammad-tariq
+  last_updated_on: 2022-06-21 19:20:12.000000000 Z
